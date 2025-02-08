@@ -1,0 +1,32 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    --webkit-font-smothing: antialisead;
+    --moz-osx-font-smothing: greyscale
+}
+
+:root{
+     --blue-100:#080815;
+     --blue-200:#0E0F25;
+     --blue-300:#141534;
+     --blue-400:#1F2151;
+     --blue-500:#2F3279;
+     --blue-600:#2F34AB;
+     --blue-700:#4A5DCD;
+     --blue-800:#7D8DEC;
+     --blue-900:#B2B8DE;
+     --white:#F1F2F6;
+
+      --font-lg: 2em / 48px bold;
+      --font-button: 1em / 20px;
+      --text: 1em / 20px;
+      --label: 0.8em / 16px;
+        --span: 1em / 20px
+        
+
+}
+
