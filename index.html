@@ -11,9 +11,9 @@
     <title>Conversor de Moedas</title>
 </head>
 <body>
-        <div class="container">
-            <header>
-                <div class="flex flex-row">
+        <div class="container flex flex-colum">
+            <header class="flex">
+                <div class="container flex">
                     <img src="./assets/up-and-down-arrows.png" alt="">
                     <div>
                         <h1>CONVERT</h1>
@@ -22,12 +22,31 @@
                 </div>
             </header>
         
-            <main>
-                <div>
-                    <form action="" method="post">
-                        
-        
-                    </form>
+            <main class="container flex">
+                <div class="modal">
+                   
+                        <form action="" method="post">
+                            <div class="flex flex-colum">
+                                <label for="valor">Valor</label>
+                                <input type="text" name="valor" placeholder="0,00" required class="input">
+                            </div>
+                           <div class="flex flex-colum">
+                            <label for="moeda">Moeda</label>
+                            <select name="moeda" id="moeda " class="input">
+                                <option class="option" value="" class="option">Selecione</option>
+                                <option class="option" value="dolar-eua" class="option">Dolar americano</option>
+                                <option class="option" value="euro">Euro</option>
+                                <option class="option" value="dolar-aus">Dolar australiano</option>
+                                <option class="option" value="yene">Yene</option>
+                                <option class="option" value="kwanza">Kwanzaa</option>
+                                <option class="option" value="real">Real</option>
+                            </select>
+                           </div>
+                            
+                            <button class="btn">Converter em reais</button>
+                        </form>
+                    
+                  
                 </div>
             </main>
     

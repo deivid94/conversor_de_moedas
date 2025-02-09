@@ -1,8 +1,8 @@
 .container {
-    display: flex;
     width: 100vh;
     margin: 0 auto;
     justify-content: center;
+   
 
 }
 
@@ -22,25 +22,47 @@
 
 
 
-button {
-    width: 3520px;
+.btn {
+    width: 352px;
     height: 52px;
     text-align: center;
     padding-block: 20px;
     padding-inline: 16px;
     border-radius: 8px;
     font-family: var(--font-button);
-
     background-color: var(--blue-600);
     color: white;
 
 
 }
 
-button:hover{
+.btn:hover{
     background-color: var(--blue-700);
+    
 }
 
-button:disabled{
+.btn:disabled{
     opacity: 0.8;
+}
+
+.input {
+    background-color: var(--blue-200);
+    border: 1px solid var(--blue-400);
+    width: 100;
+    height:52px ;
+    border-radius: 8px;
+    color: white;
+}
+
+.option {
+    margin-top: 8px;
+    border-radius: 8px ;
+    background-color: var(--blue-300);
+    border: 1px solid var(--blue-400);
+    padding-block: 12px;
+    padding-inline: 10px;
+    color: var(--blue-900);
+    font: var(--text);
+    
+
 }

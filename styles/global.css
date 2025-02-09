@@ -9,6 +9,17 @@
     --moz-osx-font-smothing: greyscale
 }
 
+
+
+
+button{
+    border: none;
+}
+
+select{
+    border: none;
+}
+
 :root{
      --blue-100:#080815;
      --blue-200:#0E0F25;
@@ -21,12 +32,10 @@
      --blue-900:#B2B8DE;
      --white:#F1F2F6;
 
-      --font-lg: 2em / 48px bold;
-      --font-button: 1em / 20px;
-      --text: 1em / 20px;
-      --label: 0.8em / 16px;
-        --span: 1em / 20px
-        
-
+      --font-lg: bold 2em 'Inter', sans-serif;
+      --font-button: normal 1em 'Inter', sans-serif;
+      --text: normal 1em 'Inter', sans-serif;
+      --label: normal 0.8em 'Inter', sans-serif;
+      --span: normal 1em 'Inter', sans-serif;
 }
 
