@@ -16,7 +16,18 @@ button{
     border: none;
 }
 
-select{
+select, input {
+    appearance: none;
+    -webkit-appearance: none; /* Safari */
+    -moz-appearance: none; /* Firefox */
+  }
+}
+
+select:active{
+    border: none;
+}
+
+input:focus{
     border: none;
 }
 

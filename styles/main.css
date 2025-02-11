@@ -16,8 +16,42 @@ main {
             div:nth-child(1){
                 margin-bottom: 20px;
 
-               
             }
+
+            label {
+                font: var(--label);
+                margin-bottom: 8px;
+                text-transform: uppercase;
+               }
+
+               select {
+                margin-bottom: 48px;
+               }
+
+          
+
+            select, input::placeholder {
+                font: var(--label);
+                padding-block:16px ;
+                padding-inline: 20px;
+                color: white;
+                
+            }
+
+             select:focus{
+                border: 1px solid var(--blue-700);
+                
+            }
+
+            button{
+                font: var(--font-button);
+            }        
+
+            
+
+
+            
+           
 
 
         }
