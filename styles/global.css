@@ -14,6 +14,7 @@
 
 button{
     border: none;
+    font-family: var(--font-button);
 }
 
 select, input {
@@ -21,7 +22,7 @@ select, input {
     -webkit-appearance: none; /* Safari */
     -moz-appearance: none; /* Firefox */
   }
-}
+
 
 select:active{
     border: none;

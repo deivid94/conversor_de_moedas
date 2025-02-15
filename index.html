@@ -25,7 +25,7 @@
             <main class="container flex">
                 <div class="modal">
                    
-                        <form action="" method="post">
+                        <form action="" method="postResult()">
                             <div class="flex flex-colum">
                                 <label for="valor">Valor</label>
                                 <input type="text" name="valor" placeholder="0,00" required class="input">
@@ -44,12 +44,15 @@
                             </select>
                            </div>
                             
-                            <button class="btn">Converter em reais</button>
+                            <button type="button" class="btn" onclick="convertMoeda()">Converter em reais</button>
                         </form>
-                    
+                    <div>
+                        <span id="resultado">valor</span>
+                    </div>
                   
                 </div>
             </main>
+            
     
         </div>
       

@@ -1,16 +1,18 @@
+function convertMoeda() {
+
 const input = document.querySelector("input")
 input.addEventListener("input", (event)=>{
-    console.log(input.value)
+    return input.value
 })
 
 const select = document.querySelector("select")
 select.addEventListener("change", ()=>{
-    console.log(select.value)
+    return select.value
 })
 
-
-function converMoeda (inputValue, selectValue){
-const result = (inputValue * selectValue)
-return result
+const result = parseInt((input.value * select.value))
+document.getElementById("resultado")
+.innerHTML = result
 
 }
+

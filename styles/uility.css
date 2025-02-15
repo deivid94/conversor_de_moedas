@@ -29,10 +29,10 @@
     padding-block: 20px;
     padding-inline: 16px;
     border-radius: 8px;
-    font-family: var(--font-button);
     background-color: var(--blue-600);
     color: white;
-
+    font: var(--font-button);
+    
 
 }
 
