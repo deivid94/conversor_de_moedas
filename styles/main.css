@@ -1,16 +1,25 @@
 main {
-    
-    
     .modal {
-        
-        width:480px;
+        position: relative;
+        width: 480px;
         height: 540px;
-        background-color: var(--blue-300);
-        border: 1px solid var(--blue-500);
+        background-color: var(--blue-400);
         border-radius: 24px;
+        border: 1px solid var(--blue-500);
+        margin-top: 56px;
+        padding: px;
+    }
+    
+    
+    .card {
+        position: absolute;
+        width: 478px;
+        background-color: var(--blue-300);
         padding-block: 56px;
         padding-inline: 64px;
-        margin-top: 56px;
+        border-radius: 24px 24px 0 0;
+        
+       
     }
         form {
             div:nth-child(1){
