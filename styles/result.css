@@ -1,16 +1,22 @@
 .resultado {
+    position: absolute;
+    bottom: 5px;
     width: 100%;
-    background-color: var(--blue-400);
     border-radius: 8px;
-    align-items: center;
     padding: 40px;
 
     span:nth-child(1){
+       
+        display: block;
+        text-align: center;
         font: var(--span);
         color: var(--blue-800);
         margin-bottom: 8px;
     }
     span:nth-child(2){
+        
+        text-align: center;
+        display: block;
         font: var(--font-lg);
     }
 }

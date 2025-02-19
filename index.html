@@ -22,8 +22,8 @@
                 </div>
             </header>
         
-            <main class="container flex">
-                <div class="modal">
+        <main class="container flex">
+            <div class="modal">
 
                 
                 <div class="card">
@@ -33,32 +33,32 @@
                                 <label for="valor">Valor</label>
                                 <input type="text" name="valor" placeholder="0,00" required class="input">
                             </div>
-                           <div class="flex flex-colum">
-                            <label for="moeda">Moeda</label>
-                            <select name="moeda" id="moeda " class="input">
-                                <option class="option" value="" class="option">Selecione a moeda</option>
-                                <option class="option" value="5.78" class="option">Dolar americano</option>
-                                <option class="option" value="5.97">Euro</option>
-                                <option class="option" value="3.63">Dolar australiano</option>
-                                <option class="option" value="0.04">Yene</option>
-                                <option class="option" value="0.006258">Kwanzaa</option>
-                                <option class="option" value="0.0005662">Peso argentino</option>
-                                
-                            </select>
+                            <div class="flex flex-colum">
+                                <label for="moeda">Moeda</label>
+                                <select name="moeda" id="moeda " class="input" required>
+                                    <option class="option" value="" class="option">Selecione a moeda</option>
+                                    <option class="option" value="USD" class="option">Dolar americano</option>
+                                    <option class="option" value="EUR">Euro</option>
+                                    <option class="option" value="GBP">Libra Esterlina</option>
+                                 
+                                </select>
                            </div>
                             
-                            <button type="button" class="btn" onclick="convertMoeda()">Converter em reais</button>
-                            <!-- <div class="resultado flex flex-colum">
-                            <span>calculo</span>
-                            <span id="resultado">valor</span>
-                        </div> -->
-                           
+                            <button type="submit" class="btn">Converter em reais</button>
+                         
                         </form>
-                     
+                        
+                            
+                </div>
+              
+                <div class="resultado">
+                        <span id="calculo">US$ 1 = R$ 4,86</span> 
+                        <span id="resultado">RESULTADO</span> 
                 </div>
 
             </div>
-            </main>
+       
+        </main>
             
          
         </div>
