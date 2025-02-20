@@ -1,5 +1,5 @@
 # Conversor de Moedas
-
+![Acesse](https://conversor-de-moedas-lovat.vercel.app/)
 ![Print do Projeto](./assets/print.PNG)
 
 Este projeto é um conversor de moedas que permite converter valores em reais (BRL) para outras moedas, como:
@@ -14,7 +14,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - **HTML** → Para estruturar a página.
 - **CSS** → Para estilizar a interface e torná-la responsiva.
-- **JavaScript** → Para realizar os cálculos de conversão e interagir com APIs de cotação de moedas.
+- **JavaScript** → Para realizar os cálculos de conversão e manipulacao DOM
 
 ## 📸 Print do Projeto
 
