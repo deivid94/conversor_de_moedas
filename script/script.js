@@ -1,5 +1,5 @@
-const USD = 4.87
-const EUR = 5.00
+const USD = 5.72
+const EUR = 5.97
 const GBP = 7.20
 
 
@@ -36,9 +36,10 @@ form.addEventListener("submit", (event)=>{
 
 
 function ConvertMoeda (input, price, coin) {
-    let result = (input*price) +" " +coin
+    let result =  (input*price).toFixed(2)+" "+coin
+
     resultado.innerText = result
-    
+    calculo.innerText = `1 ${coin} = ${price} Reais`
     
 }
 

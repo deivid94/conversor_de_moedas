@@ -27,6 +27,8 @@ main {
 
             }
 
+        
+
             label {
                 font: var(--label);
                 margin-bottom: 8px;
@@ -37,10 +39,14 @@ main {
                 margin-bottom: 48px;
                }
 
-          
+               input {
+                font: var(--text);
+                padding-inline: 20px;
+               }
 
             select, input::placeholder {
-                font: var(--label);
+                font: var(--text);
+                
                 padding-block:16px ;
                 padding-inline: 20px;
                 color: white;
